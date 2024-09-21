@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Simulador de Frecuencia Cardíaca</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Frecuencia Cardíaca en Reposo</h1>
+        <label for="bpm">Ingresa tu frecuencia cardíaca en reposo (BPM):</label>
+        <input type="number" id="bpm" min="0"><br><br>
+        <button onclick="calcularFrecuencia()">Verificar</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="js/simulador.js"></script>
+</body>
+</html>
