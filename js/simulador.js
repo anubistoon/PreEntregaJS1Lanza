@@ -1,5 +1,5 @@
 function calcularFrecuencia() {
-    let bpm = document.getElementById('bpm').value;
+    let bpm = prompt("Ingrese su frecuencia cardíaca“);
     let resultado = "";
 
     if (bpm > 0) {
@@ -13,6 +13,4 @@ function calcularFrecuencia() {
     } else {
         resultado = "Por favor, ingresa un valor válido.";
     }
-
-    document.getElementById('resultado').innerHTML = resultado;
-}
+console.log(resultado);
