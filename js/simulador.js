@@ -1,5 +1,5 @@
 function calcularFrecuencia() {
-    let bpm = prompt("Ingrese su frecuencia cardíaca“);
+    let bpm = prompt("Ingrese su frecuencia cardíaca");
     let resultado = "";
 
     if (bpm > 0) {
