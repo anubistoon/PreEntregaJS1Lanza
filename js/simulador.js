@@ -11,4 +11,5 @@
         }
     } else {
         resultado = "Por favor, ingresa un valor válido.";
+     }   
     console.log(resultado);
