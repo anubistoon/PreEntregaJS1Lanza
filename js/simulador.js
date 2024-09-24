@@ -6,11 +6,11 @@ while (true) {
 
     if (!isNaN(bpm) && bpm > 0) {
         if (bpm >= 60 && bpm <= 100) {
-            resultado = "Tu frecuencia cardíaca está en el rango normal.";
+            resultado = "Su frecuencia cardíaca está en el rango normal.";
         } else if (bpm < 60) {
-            resultado = "Tu frecuencia cardíaca está por debajo del rango normal.";
+            resultado = "Su frecuencia cardíaca está por debajo del rango normal.";
         } else {
-            resultado = "Tu frecuencia cardíaca está por encima del rango normal.";
+            resultado = "Su frecuencia cardíaca está por encima del rango normal.";
         }
         break;
     } else {
