@@ -1,4 +1,3 @@
-function calcularFrecuencia() {
     let bpm = prompt("Ingrese su frecuencia cardíaca");
     let resultado = "";
 
@@ -12,5 +11,4 @@ function calcularFrecuencia() {
         }
     } else {
         resultado = "Por favor, ingresa un valor válido.";
-    }
-console.log(resultado);
+    console.log(resultado);
